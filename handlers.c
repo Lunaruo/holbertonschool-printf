@@ -29,7 +29,11 @@ int handle_format(char c, va_list args)
 		/* print a literal '%' */
 		count += write(1, "%", 1);
 	}
-
+	else if (c == 'd' || c == 'i')
+	{
+		/* print an integer */
+		count += print_int(args);
+	}
 	/* return how many characters were printed */
 	return (count);
 }
