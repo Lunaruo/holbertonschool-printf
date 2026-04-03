@@ -14,4 +14,7 @@ int handle_format(char c, va_list args);
 int print_char(va_list args);
 int print_string(va_list args);
 
+/* integer handlers*/
+int print_int(va_list args);
+
 #endif /* MAIN_H */
