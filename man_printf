@@ -21,4 +21,4 @@ Returns -1 if an error occurs.
 _printf("Hello %s\n", "world");
 
 .SH AUTHORS
-Sajed BENAISSA L3o LEBTAHI
+Sajed BENAISSA Leo LEBTAHI
