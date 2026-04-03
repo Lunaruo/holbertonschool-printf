@@ -1,0 +1,24 @@
+.TH _PRINTF 3 "April 2026" "Custom printf" "User Functions"
+
+.SH NAME
+_printf - formatted output conversion
+
+.SH SYNOPSIS
+#include "main.h"
+
+int _printf(const char *format, ...);
+
+.SH DESCRIPTION
+_printf writes output to the standard output according to the
+format string. The format string may contain normal characters
+and format specifiers such as %c, %s, %d and %%.
+
+.SH RETURN VALUE
+Returns the number of characters printed.
+Returns -1 if an error occurs.
+
+.SH EXAMPLE
+_printf("Hello %s\n", "world");
+
+.SH AUTHORS
+Sajed BENAISSA L3o LEBTAHI
